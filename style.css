@@ -25,6 +25,9 @@ Version: 0.1 (Twenty Eleven 1.3)
 #branding hgroup {
     display :none;
 }
+#branding #searchform {
+    display :none;
+}
 
 /* Menu */
 #access {
