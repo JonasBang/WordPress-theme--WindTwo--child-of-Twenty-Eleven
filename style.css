@@ -7,3 +7,18 @@ Version: 0.1.0
 */
 
 @import url("../twentyeleven/style.css");
+
+#page {
+    margin: 0em auto;
+}
+#branding {
+    border-top: none;
+}
+#branding img {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+}
+#branding hgroup {
+    display :none;
+}
