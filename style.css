@@ -8,9 +8,12 @@ Version: 0.1.0
 
 @import url("../twentyeleven/style.css");
 
+/* Page */
 #page {
     margin: 0em auto;
 }
+
+/* Header */
 #branding {
     border-top: none;
 }
