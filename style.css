@@ -25,3 +25,65 @@ Version: 0.1.0
 #branding hgroup {
     display :none;
 }
+
+/* Menu */
+#access {
+    background: #333333;
+    margin: 0 auto 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px 1px;
+}
+#access div {
+    margin: 0 5%;
+}
+#access a {
+    color: #AAAAAA;
+    display: block;
+    line-height: 38px;
+    padding: 0 30px 0 15px;
+    text-decoration: none;
+    width: 137px;
+}
+#access .current_page_item > a,
+#access .current_page_ancestor > a {
+    color: #FFFFFF;
+}
+#access li a strong {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+#access li a span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-bottom: 15px;
+}
+#access li:hover > a,
+#access a:focus {
+    background: url(./images/menu_bg.png) repeat-x #E5E5E5;
+}
+#access ul ul {
+    top: auto;
+    width: 180px;
+}
+#access ul ul a {
+    background-color: #333333;
+    color: #AAAAAA;
+    line-height: 1em;
+    padding: 15px;
+    width: 150px;
+    border: 1px solid #333333;
+    border-top: 1px solid #444444;
+}
+#access ul ul *:hover > a {
+    background-color: #E5E5E5;
+    border: 1px solid #C5C5C5;
+}
+#access ul ul .current_page_item > a,
+#access ul ul .current_page_ancestor > a {
+    font-weight: normal;
+}
