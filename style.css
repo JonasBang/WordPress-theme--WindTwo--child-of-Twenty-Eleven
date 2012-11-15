@@ -142,7 +142,7 @@ div#comments h2#comments-title {
 
 /* Bottom widgets */
 #supplementary {
-    padding: 1em 5%;
+    padding: 10px 5%;
     background-color: #333333;
 }
 #supplementary .widget {
@@ -160,7 +160,7 @@ div#comments h2#comments-title {
     background: none repeat scroll 0 0 #333333;
     border-top: none;
     color: #AAAAAA;
-    padding: 1em 5%;
+    padding: 5px 5%;
     text-align: left;
     font-size: 9px;
     line-height: 2em;
