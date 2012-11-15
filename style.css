@@ -83,14 +83,14 @@ div#comments h2#comments-title {
     display: block;
     font-size: 16px;
     font-weight: bold;
-    padding-top: 5px;
+    padding-top: 0;
 }
 #access li a span {
     display: block;
     font-size: 12px;
     font-weight: normal;
     line-height: 1.3em;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 #access li:hover > a,
 #access a:focus {
@@ -142,7 +142,7 @@ div#comments h2#comments-title {
 
 /* Bottom widgets */
 #supplementary {
-    padding: 10px 5%;
+    padding: 8px 5%;
     background-color: #333333;
 }
 #supplementary .widget {
@@ -160,7 +160,7 @@ div#comments h2#comments-title {
     background: none repeat scroll 0 0 #333333;
     border-top: none;
     color: #AAAAAA;
-    padding: 5px 5%;
+    padding: 4px 5%;
     text-align: left;
     font-size: 9px;
     line-height: 2em;
