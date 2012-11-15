@@ -162,4 +162,6 @@ div#comments h2#comments-title {
     color: #AAAAAA;
     padding: 1em 5%;
     text-align: left;
+    font-size: 9px;
+    line-height: 2em;
 }
