@@ -32,8 +32,8 @@ function twentyeleven_setup() {
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
 
-	// Load up our theme options page and related code.
-	require( get_template_directory() . '/inc/theme-options.php' );
+	// Load up our local Wind theme options page and related code.
+	require( '/inc/theme-options.php' );
 
 	// Grab Twenty Eleven's Ephemera widget.
 	require( get_template_directory() . '/inc/widgets.php' );
