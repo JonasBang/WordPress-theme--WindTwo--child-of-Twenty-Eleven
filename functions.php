@@ -69,7 +69,7 @@ function twentyeleven_setup() {
 		'default-text-color' => '000',
 		// The height and width of our custom header.
 		'width' => apply_filters( 'twentyeleven_header_image_width', 1000 ),
-		'height' => apply_filters( 'twentyeleven_header_image_height', 288 ),
+		'height' => apply_filters( 'twentyeleven_header_image_height', 150 ),
 		// Support flexible heights.
 		'flex-height' => true,
 		// Random image rotation by default.
@@ -158,9 +158,6 @@ function twentyeleven_setup() {
 	) );
 }
 endif; // twentyeleven_setup
-
-// The height of your custom header.
-define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 150 ) );
 
 // Function to extend standard menu with description as sub-text.
 class description_walker extends Walker_Nav_Menu
