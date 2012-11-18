@@ -1,7 +1,4 @@
 <?php
-// Define height of the custom header image.
-define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyeleven_header_image_height', 150 ) );
-
 // Function to extend standard menu with description as sub-text.
 class description_walker extends Walker_Nav_Menu
 {
@@ -54,6 +51,7 @@ function remove_twentyeleven_options() {
 add_action( 'after_setup_theme', 'twentyelevenchild_customize_appearance_header_options' );
 function twentyelevenchild_customize_appearance_header_options () {
 	add_theme_support( 'custom-header', array(
+		'height' => 150,
 		'header-text' => false
 	) );
 }
